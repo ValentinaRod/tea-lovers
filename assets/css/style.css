@@ -31,74 +31,103 @@ Código Hexadecimal gris footer: #3B3B3B
 	background-color: #8EC641;
 }
 
-/*Newsletter*/
-.newsletter {
-	text-align: center;  /*contenido centrado*/
-	padding: 50px;
+* newsletter */
+.newsletter{
+	text-align: center;
+	padding: 30px 50px 50px 50px;
 }
 
-.newletter button {
+.newsletter button{
 	color: white;
 	background-color: #8EC641;
 	padding: 20px;
-	border: 5px solid white; /*borde blanco de 5px,*/
-	border-radius: 5px; /*curvamos las esquinas con border radius*/
-	font-size: 1.5em; /*agrandamos su tipografia*/
-	font-weight: bolder; /*tipografia gruesa*/
-	cursor: pointer; /*Cursor sera un pointer de links a pasar por encima del boton*/
+	border: 5px solid white;
+	border-radius: 5px;
+	font-size: 1.5em;
+	font-weight: bolder;
+	cursor: pointer;
+	margin-left:455px;
+	margin-top: 50px; 
 }
-/*Seccion about*/
-#about {
-	background: url('../img/fondo-about.jpg'); /*ñe ponemos la imagen de fondo de la misma manera que con la seccion bienvenida*/
+
+/* seccion about */
+#about{
+	background: url('../img/fondo-about.jpg');
 	background-size: cover;
 	background-position: center;
 	padding: 50px 0;
 }
 
 .contenido{
-	color:white;
-	width: 40%;   /*Un ancho del 40% en relacion con su contenedor en este caso su contenedor es about esto quiere decir que la caja contenido medira un 40% del ancho de la caja about*/
-	margin: 0 auto; /*que el margen top y de bottom de nuestra caja contenido tendra 0 px  y que en left y right tendran margen automatico, para poder ocupar esta propiedas, debemos tener un ancho definido para la caja en este 
-	aso el ancho es de 40%, esto dejara el mismo margen a 
-	la izquierda y a la derechao sea si nuestra caja ocupa un 40% del ancho de su contenedor ,
-	cada margenautomatico sera de 30% para asi hacer el 100% , se traduce imagen queda centrada*/
-	padding: 30px 30px 100px 30px; 
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 100px 30px;
 }
 
 .contenido h1{
 	font-weight: bolder;
 	font-size: 5rem;
-	font-height: 5rem;
+	line-height: 5rem;
 	text-transform: uppercase;
 }
-/*Tipos de té*/
+
+.color h1{
+	padding: 3% 0;
+	text-align: center;
+	color: white;
+	font-style: bold;
+	font-size: 35px
+}
+
+#formulario{
+	text-align: center;
+	color: white;
+}
+
+.form{
+	width: 30%;
+	margin-bottom: 7px;
+	border-radius: 10px;
+	padding-left: 8px;
+}
+
+.form-select{
+	margin-top: 4px;
+	margin-bottom: 7px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+/* tipos de te */
 .te-diferentes{
-	color:white;   
+	color: white;
 	padding: 30px;
 	width: 60%;
 	margin: 0 auto;
 }
 
 .tipo-de-te{
-	border: 5px solid white; /*borde y letra blanca*/
+	border: 5px solid white;
 	margin: 30px 0;
 	padding: 20px;
 }
 
-.tipo.de-te h2 {
+.tipo-de-te h2{
 	font-size: 1.5rem;
 }
 
-#disfruta {
+/* disfruta */
+#disfruta{
 	background: url('../img/disfruta.jpg');
 	background-size: cover;
 	background-position: center;
-	padding: 50px 0; 
+	padding: 50px 0;
 }
 
-/*Footer*/
-.footer{
-	background-color: #3B3B3B; /*tendra un color gris de fondo*/
-	padding: 20px 30px /*padding de 20px en top y bottom y de 30px en left y right*/
-	color:white; /*texto color blanco*/
+/* footer */
+footer{
+	background-color: #3B3B3B;
+	padding: 20px 30px;
+	color: white;
 }
